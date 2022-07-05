@@ -17,6 +17,14 @@
     margin-top: 20px;
 }
 
+.titulo-video {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.descricaovideo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
 
 body {
     background-color: yellow;
