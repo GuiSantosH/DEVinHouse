@@ -1,3 +1,4 @@
+
 .titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -36,10 +37,10 @@
 
   .navbar a {
     float: left;
-    display: block;
+    display: flex;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 14px; 
     text-decoration: none;
   }
 
@@ -48,6 +49,16 @@
     transition: 300ms;
     transition-delay: 300ms;
     color: black;
+  }
+
+  .rodape {
+    background: gray;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;   
+    bottom: 5;   
+    width: 99.4%;   
+    height: 20px;   
   }
 
 body {
