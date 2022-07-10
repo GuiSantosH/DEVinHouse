@@ -75,10 +75,10 @@ form {
   }
   
   input, textarea {
-    font: 1em sans-serif;
+    font: 1em bold;
     width: 300px;
     box-sizing: border-box;
-  
+    color: white;
     border: 1px solid #999;
   }
   
