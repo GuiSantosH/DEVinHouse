@@ -119,3 +119,14 @@ button:hover {
     text-align: center;
     display: inline-flex;
 }
+
+.controdp p{
+    padding: 3px;
+    background-color: #5f605d60;
+}
+.rodape {
+    text-align: center;
+    color: white;
+    font-family: sans-serif ;
+    font-weight: 300;
+}
