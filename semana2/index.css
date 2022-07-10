@@ -101,8 +101,21 @@ button:hover {
 
 .description img {
     width: 2%;
-    vertical-align: middle;
     padding-right: 10px;
     height: 2%;
 }
 
+.imgeventdescription p {
+    font-family: monospace;
+    padding: 10px;
+    color: white;
+}
+
+.imgeventdescription {
+    text-align: center;
+}
+
+.imgeventdescription br {
+    text-align: center;
+    display: inline-flex;
+}
