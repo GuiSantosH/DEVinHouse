@@ -1,4 +1,4 @@
-<img align="center" src="devinhouse-logo.png" />
+<img align="center" src="https://i.imgur.com/T4DEr2r.png" />
 <h1 align="center">DEVinHouse Studying.</h1>
 <p align="center">Repositório criado 
 para resolução de exercicíos propostos 
