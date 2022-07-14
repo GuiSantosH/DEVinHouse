@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,h2{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
