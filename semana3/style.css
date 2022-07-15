@@ -3,9 +3,11 @@ body {
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 h1,h2{
     color: white;
+    text-align: center;
 }
 
 ul{
