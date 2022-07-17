@@ -25,3 +25,4 @@ for(i in lista) {
   li.appendChild(document.createTextNode(lista[i]))
   ul.appendChild(li)
 }
+
