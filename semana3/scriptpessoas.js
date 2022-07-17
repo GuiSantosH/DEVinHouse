@@ -14,4 +14,11 @@ var representaPessoa = (nome, sobrenome, setor, idade) => {
   var pCinco = representaPessoa('Diego', 'Almeida', 'arquibancada', 15);
   var pSeis = representaPessoa('Leandro', 'Oliveira', 'arquibancada', 19);
 
- 
+ var listaDeConvidados = [
+    pUm,
+    pDois,
+    pTres,
+    pQuatro,
+    pCinco,
+    pSeis
+ ];
