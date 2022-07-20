@@ -8,11 +8,11 @@ var representaPessoa = (nome, sobrenome, setor, idade) => {
   };
 
   var pessoa1 = representaPessoa('Guilherme', 'Santos', 'camarote', 18);
-  var pessoa2 = representaPessoa('Flavio', 'Silva', 'camarote', 21);
+  var pessoa2 = representaPessoa('Flavio', 'Silva', 'camarote', 17);
   var pessoa3 = representaPessoa('Lorenz', 'Pontes', 'pista', 21);
-  var pessoa4 = representaPessoa('Luan', 'Rodrigo', 'pista', 23);
-  var pessoa5 = representaPessoa('Diego', 'Almeida', 'arquibancada', 15);
-  var pessoa6 = representaPessoa('Leandro', 'Oliveira', 'arquibancada', 19);
+  var pessoa4 = representaPessoa('Luan', 'Rodrigo', 'pista', 16);
+  var pessoa5 = representaPessoa('Diego', 'Almeida', 'arquibancada', 21);
+  var pessoa6 = representaPessoa('Leandro', 'Oliveira', 'arquibancada', 16);
 
  const listaDeConvidados = [
     pessoa1,
@@ -84,14 +84,23 @@ const ulArquibancada = document.getElementById("arquibancada");
 const ulPista = document.getElementById("pista");
 const ulCamarote = document.getElementById("camarote");
 
+const marcarOpenBar = (pessoa) => {
+  if (pessoa.openBar === true){
+    return "🍺";
+  } else {
+    return "🔞"
+  }
+};
+
 listaArquibancada.forEach((pessoa) => {
-  ulArquibancada.innerHTML += `<li>${pessoa.nome} `+` ${pessoa.sobrenome}</li>`;
+  ulArquibancada.innerHTML += `<li>${marcarOpenBar(pessoa)} ${pessoa.nome} `+` ${pessoa.sobrenome}</li>`;
 });
 
 listaCamarote.forEach((pessoa) => {
-  ulCamarote.innerHTML += `<li>${pessoa.nome} `+` ${pessoa.sobrenome}</li>`;
+  ulCamarote.innerHTML += `<li>${marcarOpenBar(pessoa)} ${pessoa.nome} `+` ${pessoa.sobrenome}</li>`;
 });
 
 listaPista.forEach((pessoa) => {
-  ulPista.innerHTML += `<li>${pessoa.nome} `+` ${pessoa.sobrenome}</li>`;
+  ulPista.innerHTML += `<li>${marcarOpenBar(pessoa)} ${pessoa.nome} `+` ${pessoa.sobrenome}</li>`;
 });
+
