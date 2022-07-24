@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="index.css">
     <title>DEVBank</title>
 </head>
 <input>
+<body onload="adicionaClientes(clientes)">
     <select name="contas" id="contas"></select>
     <input type="text" placeholder="Valor"></input>
     <select name="operacoesBancarias" id="operacoesBancarias">
-        <option value="sacar">Sacar</option>
-        <option value="depositar">Depositar</option>
+        <option value="0">(Selecione)</option>
+        <option value="1">Sacar</option>
+        <option value="2">Depositar</option>
     </select>
     <button type="submit">Confirmar</button>
 </body>
