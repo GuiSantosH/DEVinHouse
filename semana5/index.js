@@ -1,6 +1,15 @@
-import {saudacao} from './saudacao.js' //EX 1
-import saudacaoEspecial from './saudacao-especial.js' //Exercicio 2
+import {saudacao} from './saudacao.js' 
+import saudacaoEspecial from './saudacao-especial.js' 
 
-console.log(saudacao()); //Exercicio 1
+console.log(saudacao()); 
 
-console.log(saudacaoEspecial("Guilherme")); //Exercicio 2
+console.log(saudacaoEspecial("Guilherme")); 
+
+class Produto { 
+    constructor(nome, preco, emEstoque, quantidade){ 
+        this.nome = nome; 
+        this.preco = preco; 
+        this.emEstoque = emEstoque; 
+        this.quantidade = quantidade; 
+    }
+}
